@@ -112,6 +112,7 @@ ItemDisplay[((GEM=4 OR GEM=5) AND GEMTYPE=6)]: %WHITE%%GEMLEVEL% %YELLOW%%GEMTYP
 ItemDisplay[((GEM=4 OR GEM=5) AND GEMTYPE=7)]: %WHITE%%GEMLEVEL% %GRAY%%GEMTYPE% %YELLOW%($%PRICE%)
 
 // Low Quality Gems
+ItemDisplay[GEM<4 CLVL>70]://Hide all gems that aren't flawless or perfect above level 70
 ItemDisplay[GEM<4 AND GEMTYPE=1)]: %GRAY%%GEMLEVEL% %PURPLE%%GEMTYPE% %YELLOW%($%PRICE%)
 ItemDisplay[GEM<4 AND GEMTYPE=2)]: %GRAY%%GEMLEVEL% %WHITE%%GEMTYPE% %YELLOW%($%PRICE%)
 ItemDisplay[GEM<4 AND GEMTYPE=3)]: %GRAY%%GEMLEVEL% %GREEN%%GEMTYPE% %YELLOW%($%PRICE%)
